@@ -15,6 +15,7 @@
 		52BD7F9C1F8E00DA001B4A70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BD7F9B1F8E00DA001B4A70 /* main.m */; };
 		52BD7FA61F8E00DA001B4A70 /* testgittTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BD7FA51F8E00DA001B4A70 /* testgittTests.m */; };
 		52BD7FB11F8E00DA001B4A70 /* testgittUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BD7FB01F8E00DA001B4A70 /* testgittUITests.m */; };
+		52BD7FC01F8E158D001B4A70 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BD7FBF1F8E158D001B4A70 /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		52BD7FAC1F8E00DA001B4A70 /* testgittUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testgittUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BD7FB01F8E00DA001B4A70 /* testgittUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testgittUITests.m; sourceTree = "<group>"; };
 		52BD7FB21F8E00DA001B4A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BD7FBE1F8E158D001B4A70 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		52BD7FBF1F8E158D001B4A70 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				52BD7F8D1F8E00DA001B4A70 /* AppDelegate.m */,
 				52BD7F8F1F8E00DA001B4A70 /* ViewController.h */,
 				52BD7F901F8E00DA001B4A70 /* ViewController.m */,
+				52BD7FBE1F8E158D001B4A70 /* test.h */,
+				52BD7FBF1F8E158D001B4A70 /* test.m */,
 				52BD7F921F8E00DA001B4A70 /* Main.storyboard */,
 				52BD7F951F8E00DA001B4A70 /* Assets.xcassets */,
 				52BD7F971F8E00DA001B4A70 /* LaunchScreen.storyboard */,
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52BD7F911F8E00DA001B4A70 /* ViewController.m in Sources */,
+				52BD7FC01F8E158D001B4A70 /* test.m in Sources */,
 				52BD7F9C1F8E00DA001B4A70 /* main.m in Sources */,
 				52BD7F8E1F8E00DA001B4A70 /* AppDelegate.m in Sources */,
 			);
