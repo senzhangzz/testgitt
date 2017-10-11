@@ -17,7 +17,7 @@
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect {
     // Drawing code
-    NSLog(@"1");
+    NSLog(@"18");
 }
 
 
